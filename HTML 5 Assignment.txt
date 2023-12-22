@@ -1,0 +1,36 @@
+HTML 5 Assignment:
+
+1) What are the new tags added in HTML5?
+<nav> Specifies a navigation area.
+<area> Specifies an area inside an image map.
+<aside> Specifies a piece of content that is only slightly related to the rest of the page.
+<audio>	Specifies an audio file.
+<video>	Specifies an video file.
+<embed>	Defines external interactive content or plugin.
+
+2) How to embed audio and video in a webpage?
+<embed src="TEST VIDEO.mp4"/ type="video.mp3">
+
+3) Semantic element in HTML5? 
+Semantic elements = elements with a meaning
+<article>
+<aside>
+<details>
+<footer>
+<header>
+<main>
+<nav>
+<section>
+
+4) Canvas and SVG tags?
+<canvas id="squre"></canvas>
+<script>
+        var cnbv = document.getElementById("squre")
+        var cnt = cnbv.getContext('2d')
+        cnt.fillStyle ="red";
+        cnt.fillRect(50,50,600,500);
+</script>
+
+<svg viewBox="0 0 300 300" stroke="green" fill="gray">
+	<circle cx="30" cy="30" r="30"></circle>
+</svg>
